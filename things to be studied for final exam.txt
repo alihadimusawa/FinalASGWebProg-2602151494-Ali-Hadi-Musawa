@@ -1,0 +1,18 @@
+- array map
+- get the id from the recently inserted data
+- attach a variable from controller to another route, and access the variable in the view
+- study how to use bootstrap
+- validation in laravel
+- submitting form and prevent default submission
+- session
+- middleware and how to register it in the bootstrap file
+- eloquent query
+- how to relate a model to another models
+
+- command :
+    - migrate rollback
+    - create mvc in one command
+    - php artisan key:generate
+
+- Note:
+    - @csrf

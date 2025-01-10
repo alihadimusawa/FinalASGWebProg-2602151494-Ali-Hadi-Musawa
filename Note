@@ -1,0 +1,74 @@
+Model:
+- User (has many hobby, has many friends, has many avatar):
+    -  name
+    -  password
+    -  gender
+    -  instagram username
+    -  mobile number
+    -  status (single, taken)
+    -  coin
+    
+
+- Friend (has one user)
+    - id
+    - friendId (current user that is sending the friend request)
+    - targetUserId (targeted user)
+    - status (accepted, waiting)
+
+- Hobby (has one user)
+    -  id
+    -  user id 
+    -  hobby
+
+- Avatar (has one user)
+    - image link
+    - user_id
+    - status
+    - id
+
+View:
+    - Register
+    - Login
+    - Register payment
+    - Homepage
+    - Homepage (not logged in)
+    - Profile
+    - Notification
+    - Top up
+    - Buy avatar
+
+Controller:
+- Hobby controller:
+    -  create hobby
+
+- User controller:
+    - create user
+    - remove friend
+    - add friend
+    - save money
+    - buy avatar
+    - top up
+
+Things to do:
+- create a register page (static)
+- pass the dat
+
+Features to implement:
+
+- User Authentication: 
+    - Login/Register
+
+- Payment:
+    - Every user that wants to register, requiere to make payments
+
+- Localization
+
+- Friends:
+    - display the user friends on the profile
+    - allow user to add and remove friends
+
+- Notification
+
+- Top up coins
+
+- Buy avatar
